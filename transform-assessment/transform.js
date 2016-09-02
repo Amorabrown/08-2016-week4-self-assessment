@@ -31,14 +31,6 @@ var doubleNumbers = transform(numbers, function(elem){
 
 
 
-
-
-
-
-
-
-
-
 // this is made for you
 function loop(collection, callback){
 	if (Array.isArray(collection)){

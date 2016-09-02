@@ -1,4 +1,4 @@
-# Use filterBy
+ # Use filterBy
 
 `filterBy` is a higher order function that is built on top of `loop`. Much like `transform`, `filterBy` takes a `collection` and a `callback`. However, the type of `callback` that `filterBy` takes does not ***transform*** each value, rather, it will check it against a truth test and return true or false. We call these type of functions `predicates`.
 

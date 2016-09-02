@@ -6,6 +6,14 @@ Please do this problem without referring back to exactly how we built transform 
 
 * [ ] Build `loop` (or copy what you wrote in the Extend Obj prompt to define loop here).
 
+var loop = function (collection, callback){
+	if (typeOf collection === "object") {
+		for (var key in Jon) {
+			callback (collection[key], key)
+		}
+	}
+}
+
 * [ ] Debug `transform`.
 
 * [ ] Test your `transform` function using the test case given.
